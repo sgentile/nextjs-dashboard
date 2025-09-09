@@ -1,0 +1,25 @@
+{
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.mergeEditor": true,
+  "git.branchProtection": ["main"],
+  "git.pullTags": false,
+  "jestrunner.debugOptions": {
+    "args": ["--no-cache", "--runInBand"]
+  },
+  "jestrunner.runOptions": ["--no-cache", "--runInBand"],
+  "jestrunner.codeLensSelector": "**/*.{test,spec,integration,smoke}.{js,jsx,ts,tsx}",
+  "redhat.telemetry.enabled": false,
+  "eslint.codeActionsOnSave.rules": null,
+  "typescript.tsdk": "node_modules/typescript/lib",  
+  "git.checkoutType": ["local", "remote"]
+}
